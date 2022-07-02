@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+#banner-section{
+    display: flex;
+}
+
+.half-width{
+    margin: 20px;
+    padding: 25px;
+    height: 300px;
+    width: 50%;
+    background-color: rgb(145, 92, 24);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+#second-half{
+    color: rgb(221, 148, 162);
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+h1{
+    font-size: 35px;
+}
+.blog{
+    background-color: cyan;
+    padding: 25px;
+}
+
+.blog-1{
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.blog-2{
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.blog-3{
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.blog-4{
+    border: 2px solid black;
+    margin: 5px;
+}
+
+#final-blog{
+    border: 10px solid red;
+    padding: 60px 50px;
+    margin: 50px 100px;
+    border-radius: 10px;
+}
+
+#final-blog p{
+    border: 3px solid black;
+}
